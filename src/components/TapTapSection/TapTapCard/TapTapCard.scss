@@ -1,0 +1,52 @@
+.tap-tap-card {
+	display: grid;
+	place-items: center;
+
+	transform-style: preserve-3d;
+	transform-origin: center center;
+	transition: transform 0.4s;
+
+	position: relative;
+
+	> * {
+		cursor: pointer;
+		transition: all 0.2s ease;
+		user-select: none;
+	}
+
+	.tap-tap-card__img {
+		width: 250px;
+		aspect-ratio: 1;
+		backface-visibility: hidden;
+
+		&:hover {
+			transform: scale(1.08);
+		}
+	}
+
+	.tap-tap-card__content {
+		font-family: "Segoe UI";
+		font-size: 20px;
+		width: 250px;
+		aspect-ratio: 1;
+
+		backface-visibility: hidden;
+		transform: rotateY(180deg);
+		position: absolute;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		text-align: center;
+		// transform: translate(-50%, -50%);
+
+		&:hover {
+			text-shadow: 0 0 0.5px rgb(94, 94, 94);
+		}
+	}
+
+	&.revealed {
+		transform: rotateY(-180deg);
+	}
+}
