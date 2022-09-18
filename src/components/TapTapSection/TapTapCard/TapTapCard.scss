@@ -39,7 +39,8 @@
 		justify-content: center;
 
 		text-align: center;
-		// transform: translate(-50%, -50%);
+		white-space: pre-line;
+		vertical-align: bottom;
 
 		&:hover {
 			text-shadow: 0 0 0.5px rgb(94, 94, 94);
