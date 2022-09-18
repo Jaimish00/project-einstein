@@ -1,5 +1,5 @@
 import "./TapTapSection.scss";
-import data from "@/assets/tapTap.json";
+import data from "./tapTap.json";
 import TapTapCard from "./TapTapCard/TapTapCard";
 import Footer from "../Footer/Footer";
 
