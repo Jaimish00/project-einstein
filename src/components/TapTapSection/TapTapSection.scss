@@ -1,6 +1,6 @@
 .tap-tap-section {
 	padding-top: 3rem;
-	background-color: pink;
+	background-color: #ffc0cb;
 	position: relative;
 
 	h2 {
@@ -8,6 +8,7 @@
 		font-size: 60px;
 		color: #ffffff;
 		-webkit-text-stroke: 1.5px #000;
+		line-height: 1.2;
 	}
 
 	.tap-tap-cards {
@@ -15,5 +16,11 @@
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 30px 10px;
 		margin-top: 50px;
+
+		@media screen and (max-width: 600px) {
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 150px;
+		}
 	}
 }
