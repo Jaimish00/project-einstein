@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 const TapTapSection = () => {
 	return (
 		<section className="section tap-tap-section">
-			<h2>Let's play tap tap</h2>
+			<h2>Something special for you, dear</h2>
 
 			<section className="tap-tap-cards">
 				{data.map((item) => {
