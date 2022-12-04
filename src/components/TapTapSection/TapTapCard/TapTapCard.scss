@@ -12,6 +12,8 @@
 		cursor: pointer;
 		transition: all 0.2s ease;
 		user-select: none;
+
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	.tap-tap-card__img {
